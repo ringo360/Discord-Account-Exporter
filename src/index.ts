@@ -6,5 +6,8 @@ Runner(token as string);
 
 async function Runner(token: string) {
     const client = new Client();
+
+    client.on('ready', (client) => {});
+
     client.login(token);
 }
