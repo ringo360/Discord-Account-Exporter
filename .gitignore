@@ -131,3 +131,6 @@ dist
 
 #Ignore build dir
 build/
+
+#Ignore token text file
+token.txt
